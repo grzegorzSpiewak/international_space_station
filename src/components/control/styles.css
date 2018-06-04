@@ -1,0 +1,44 @@
+.Control {
+  width: 100%;
+}
+.Spinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+.Header {
+  background-color: #607D8B;
+  padding: 2em;
+  text-align: center;
+}
+.HeaderText {
+  color: #ECEFF1;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+.BtnWrap {
+  width: 100%;
+  padding: 2em 0;
+  text-align: center;
+}
+.Btn {
+  display: inline-block;
+  min-width: 160px;
+  height: 60px;
+  background-color: #F63A55;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #F63A55;
+  border-radius: 0;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+}
+.Btn:hover {
+  opacity: .8;
+}

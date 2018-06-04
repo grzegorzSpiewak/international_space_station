@@ -1,0 +1,21 @@
+.Box {
+  position: fixed;
+  top: 5em;
+  right: 15em;
+  width: 200px;
+  background-color: #F63A55;
+  padding: .5em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 15px rgba(0,0,0,.2);
+}
+
+.Text {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-size: 1em;
+}

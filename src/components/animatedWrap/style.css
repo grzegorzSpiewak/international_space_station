@@ -1,0 +1,50 @@
+/** Animation for list **/
+.fadeEnter {
+  opacity: 0;
+}
+.fadeEnterActive {
+  opacity: 1;
+  animation: popup .5s;
+	transition: all 1s ease;
+}
+.fadeExit {
+  opacity: 1;
+}
+.fadeExitActive {
+  animation: popout .1s;
+  opacity: 0;
+}
+@keyframes popup {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes popout {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
